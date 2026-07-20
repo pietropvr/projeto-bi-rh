@@ -30,8 +30,8 @@ A etapa de Análise Exploratória de Dados (EDA) foi desenvolvida em Python. O s
 Além disso, as bibliotecas `matplotlib` e `seaborn` foram utilizadas para a geração de um **Boxplot**, permitindo a visualização da distribuição de salários por departamento e a identificação de possíveis *outliers* (valores fora do padrão).
 
 ## Principais Resultados Encontrados
-A partir da Análise Exploratória de Dados (EDA) e da leitura do Boxplot, identificamos os seguintes padrões de negócio:O Topo da Hierarquia:
-* O departamento Executive possui a maior faixa salarial da empresa. O menor salário deste setor ainda é superior ao salário máximo de quase todos os outros departamentos, sendo o principal responsável por elevar a média salarial global da empresa.
+A partir da Análise Exploratória de Dados (EDA) e da leitura do Boxplot, identificamos os seguintes padrões de negócio:
+* O Topo da Hierarquia: O departamento Executive possui a maior faixa salarial da empresa. O menor salário deste setor ainda é superior ao salário máximo de quase todos os outros departamentos, sendo o principal responsável por elevar a média salarial global da empresa.
 * Maior Variação Interna: O departamento de Sales (Vendas) apresenta a maior amplitude salarial (a "caixa" mais alta no gráfico). Isso indica uma forte diferença de níveis hierárquicos internos (ex: júnior, pleno, sênior) ou forte impacto de remuneração variável/comissões.
 * A Base Operacional: Os setores Purchasing e Shipping concentram os menores salários (entre 2.500 e 3.000) e possuem pouquíssima variação de pagamento entre os colaboradores.
 * Relevância dos Outliers: O gráfico revelou pontos fora do padrão (outliers) muito acima da média em setores como Shipping, Finance e IT. Para o RH, esses pontos são altamente relevantes, pois indicam possíveis cargos de liderança ou especialistas que ganham significativamente mais que a base de suas equipes.
@@ -48,6 +48,5 @@ A partir da Análise Exploratória de Dados (EDA) e da leitura do Boxplot, ident
 5. O terminal exibirá as estatísticas descritivas e uma janela abrirá mostrando o gráfico gerado.
 
 ## Sugestões de Melhoria
-*(Preencha com ideias para o futuro)*
 * **Melhoria 1:** Criar um painel interativo (Dashboard) para o RH monitorar essas métricas em tempo real.
 * **Melhoria 2:** Adicionar uma análise preditiva para estimar o salário adequado de um novo colaborador com base em sua região e cargo.
